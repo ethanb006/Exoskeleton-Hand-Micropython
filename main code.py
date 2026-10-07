@@ -34,21 +34,21 @@ def stop():
     
 # code
 
-#
+# wait 5 seconds
 utime.sleep(5)
 
-#
+# motor forward at approx half of max speed for 3 seconds
 forward(32000)
 utime.sleep(3)
 
-#
+# wait 5 seconds
 stop()
 utime.sleep(5)
 
-#
+# motor reverse at approx half speed for 3 seconds
 reverse(32000)
 utime.sleep(3)
 
-#
+# stop
 stop()
 
